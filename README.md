@@ -264,10 +264,7 @@ WHERE business_category = 'Real Estate';
 SELECT business_category
 FROM csq_responses
 GROUP BY business_category;
-```
 
-
-```sql
 26. Write a SQL query to find CSQs that don't want emojis and prefer friendly tone
 
 SELECT *
@@ -298,6 +295,7 @@ FROM csq_responses AS c
 JOIN agent_orders AS o
   ON c.order_id = o.order_id;
 ```
+
 ### Content Workflow Tracking
 
 ```sql
